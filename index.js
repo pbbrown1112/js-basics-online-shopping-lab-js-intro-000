@@ -33,7 +33,7 @@ function viewCart() {
         return 'In your cart, you have '+currentCart[0]+', and '+currentCart[1]+'.';
       }
       else if (cart.length >= 3) {
-        return 'In your cart, you have '+currentCart[0]+', '+currentCart[1]+', '+currentCart[i]+', and '+currentCart[i.length]+'.';
+        return 'In your cart, you have '+currentCart[0]+', '+currentCart[1]+', '+currentCart[${i}]+', and '+currentCart[i.length]+'.';
       }
 }
 }
